@@ -27,10 +27,7 @@ export const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <Image 
-        src="./images.jpeg"  // path relatif dari folder public
-        alt="Deskripsi Gambar"
-      />
+              <Trophy className="h-6 w-6 text-blue-600" />
              <a href="/">
                <span className="font-bold text-xl">SMK KRISTEN PEDAN</span>
                </a>
