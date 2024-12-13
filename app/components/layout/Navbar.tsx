@@ -28,7 +28,7 @@ export const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center space-x-2">
               <Image 
-        src="images.jpeg"  // path relatif dari folder public
+        src="./images.jpeg"  // path relatif dari folder public
         alt="Deskripsi Gambar"
       />
              <a href="/">
