@@ -4,6 +4,8 @@ import { Home, LayoutDashboard, Trophy, Phone, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import Image from 'next/image';
+
 
 export const Navbar = () => {
   const pathname = usePathname();
@@ -25,7 +27,10 @@ export const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <Trophy className="h-6 w-6 text-blue-600" />
+              <Image 
+        src="images.jpeg"  // path relatif dari folder public
+        alt="Deskripsi Gambar"
+      />
              <a href="/">
                <span className="font-bold text-xl">SMK KRISTEN PEDAN</span>
                </a>
